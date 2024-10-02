@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <Authors>M Pylon</Authors>
+        <Description>Extensible observable list for Avalonia.</Description>
+        <Nullable>enable</Nullable>
+        <PackageId>Pylon.ObservableList</PackageId>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+        <PackageProjectUrl>https://github.com/mpylon/observable-list</PackageProjectUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageTags>avalonia collection</PackageTags>
+        <PackageVersion>1.0.0-beta-00001</PackageVersion>
+        <RepositoryUrl>https://github.com/mpylon/observable-list.git</RepositoryUrl>
+        <TargetFramework>net8.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="../LICENSE.txt" Pack="true" PackagePath="." />
+        <None Include="../README.md" Pack="true" PackagePath="." />
+    </ItemGroup>
+
+</Project>
